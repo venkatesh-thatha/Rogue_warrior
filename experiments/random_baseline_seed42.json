@@ -1,0 +1,54 @@
+{
+  "policy": "uniform_random",
+  "game_config": {
+    "time_step": 0.016666666666666666,
+    "road_width": 12.0,
+    "bike_width": 0.8,
+    "max_speed": 35.0,
+    "acceleration": 8.0,
+    "braking": 14.0,
+    "drag": 1.2,
+    "steering_speed": 4.5,
+    "race_distance": 500.0,
+    "max_duration": 60.0
+  },
+  "reward_config": {
+    "progress": 1.0,
+    "finish_bonus": 5.0,
+    "timeout_penalty": 1.0
+  },
+  "software": {
+    "python": "3.11.9",
+    "gymnasium": "1.4.0",
+    "numpy": "2.4.6"
+  },
+  "episodes": [
+    {
+      "seed": 42,
+      "steps": 2106,
+      "elapsed_seconds": 35.1,
+      "progress": 1.0,
+      "return": 6.0,
+      "outcome": "finish"
+    },
+    {
+      "seed": 43,
+      "steps": 2377,
+      "elapsed_seconds": 39.61666666666667,
+      "progress": 1.0,
+      "return": 6.0,
+      "outcome": "finish"
+    },
+    {
+      "seed": 44,
+      "steps": 1981,
+      "elapsed_seconds": 33.016666666666666,
+      "progress": 1.0,
+      "return": 6.0,
+      "outcome": "finish"
+    }
+  ],
+  "completion_rate": 1.0,
+  "mean_progress": 1.0,
+  "mean_return": 6.0
+}
